@@ -34,3 +34,23 @@ The following diagram illustrates the complete call flow between Cisco Webex Cal
 <p align="center">
 <img src="diagrams/architecture.png" width="1000">
 </p>
+
+
+---
+
+# Technology Stack
+
+| Component | Technology |
+|-----------|------------|
+| Cloud Platform | Microsoft Azure |
+| Voice Gateway | Cisco Catalyst 8000V (CUBE) |
+| UC Platform | Cisco Webex Calling |
+| Administration | Cisco Control Hub |
+| PSTN Provider | Twilio Elastic SIP Trunk |
+| SIP Registration | Registration-Based Local Gateway |
+| Signaling | SIP over TLS |
+| Media | RTP/SRTP |
+| Security | TLS Certificates |
+| Verification | CLI + Control Hub + Twilio Logs |
+
+---

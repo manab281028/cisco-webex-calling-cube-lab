@@ -54,3 +54,20 @@ The following diagram illustrates the complete call flow between Cisco Webex Cal
 | Verification | CLI + Control Hub + Twilio Logs |
 
 ---
+
+# Key Features
+
+- Registration-Based Local Gateway (Cisco CUBE)
+- Cisco Webex Calling Integration
+- Twilio Elastic SIP Trunk Integration
+- Internal Extension Calling
+- PSTN Calling
+- SIP over TLS
+- Secure RTP (SRTP)
+- Dial Peer Configuration
+- Voice Service VoIP Configuration
+- SIP Registration Verification
+- End-to-End Call Validation
+- CLI Verification Commands
+- Control Hub Administration
+- Troubleshooting and Issue Resolution

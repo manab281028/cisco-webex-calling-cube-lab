@@ -1,4 +1,29 @@
 # Cisco Webex Calling + CUBE Registration-Based Local Gateway Lab
+![Cisco](https://img.shields.io/badge/Cisco-CUBE-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
+![Webex](https://img.shields.io/badge/Webex-Calling-00BCEB?style=for-the-badge)
+![Azure](https://img.shields.io/badge/Microsoft-Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Twilio](https://img.shields.io/badge/Twilio-SIP%20Trunk-F22F46?style=for-the-badge&logo=twilio&logoColor=white)
+![TLS](https://img.shields.io/badge/SIP-TLS-success?style=for-the-badge)
+![SRTP](https://img.shields.io/badge/Media-SRTP-orange?style=for-the-badge)
+
+---
+
+## Table of Contents
+
+- Project Overview
+- Lab Objectives
+- Lab Architecture
+- Technology Stack
+- Deployment Workflow
+- Repository Structure
+- Configuration Files
+- Documentation
+- Screenshots
+- Verification
+- Troubleshooting
+- Lessons Learned
+
+---
 
 ## Project Overview
 
@@ -71,3 +96,39 @@ The following diagram illustrates the complete call flow between Cisco Webex Cal
 - CLI Verification Commands
 - Control Hub Administration
 - Troubleshooting and Issue Resolution
+
+## Repository Structure
+
+```text
+cisco-webex-calling-cube-lab/
+│
+├── README.md
+├── LICENSE
+│
+├── diagrams/
+│   └── Architecture Diagram
+│
+├── screenshots/
+│   ├── 00-architecture-diagram.png
+│   ├── 01-control-hub-trunk-online.png
+│   ├── 02-cube-sip-registration.png
+│   ├── 03-users-and-extensions.png
+│   ├── 04-webex-calling-license.png
+│   ├── 05-webex-softphone-connected.png
+│   ├── 06-internal-call-success.png
+│   └── 07-pstn-call-success.png
+│
+├── configurations/
+│   ├── 01-voice-service-voip.md
+│   ├── 02-sip-ua.md
+│   ├── 03-dial-peers.md
+│   ├── 04-webex-registration.md
+│   ├── 05-twilio-sip-trunk.md
+│   └── 06-security-and-tls.md
+│
+└── docs/
+    ├── 01-deployment-guide.md
+    ├── 02-call-flow.md
+    ├── 03-troubleshooting.md
+    └── 04-lessons-learned.md
+```

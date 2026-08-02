@@ -62,3 +62,27 @@ The following items were verified:
 - SIP signaling was encrypted using TLS.
 - Media streams were protected using SRTP.
 - Cisco Webex Calling successfully communicated with Cisco CUBE over a secure connection.
+
+## Example Configuration
+
+```cisco
+crypto pki trustpoint WEBEX-CA
+ enrollment terminal
+ revocation-check none
+
+voice service voip
+ sip
+  transport tcp tls v1.2
+
+srtp
+```
+## Notes
+
+- TLS encrypts SIP signaling.
+- SRTP encrypts RTP media streams.
+- Certificates must remain valid for successful registration.
+- Trustpoints should reference the correct Certificate Authority.
+
+## Screenshots
+
+![TLS Configuration](../screenshots/08-tls-configuration.png)

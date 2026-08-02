@@ -26,6 +26,9 @@
 
 ---
 
+<img width="1536" height="1024" alt="00-webex-calling-call-flow" src="https://github.com/user-attachments/assets/c525180e-f5e0-4ec9-9cc3-8a51ac0f45c0" />
+
+
 ## Project Overview
 
 This project demonstrates a complete end-to-end deployment of Cisco Webex Calling using Cisco Catalyst 8000V (CUBE) configured as a Registration-Based Local Gateway.

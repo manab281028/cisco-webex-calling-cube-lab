@@ -149,3 +149,16 @@ cisco-webex-calling-cube-lab/
 - SIP Registration Verification
 - CLI Troubleshooting
 - End-to-End Voice Validation
+
+  ---
+
+## Configuration Files
+
+| File | Description |
+|------|-------------|
+| [`01-voice-service-voip.md`](configurations/01-voice-service-voip.md) | Voice Service VoIP configuration and global voice settings |
+| [`02-sip-ua.md`](configurations/02-sip-ua.md) | SIP UA registration, authentication, and registrar configuration |
+| [`03-dial-peers.md`](configurations/03-dial-peers.md) | Incoming and outgoing dial-peer configuration |
+| [`04-webex-registration.md`](configurations/04-webex-registration.md) | Registration-Based Local Gateway (RBLG) configuration |
+| [`05-twilio-sip-trunk.md`](configurations/05-twilio-sip-trunk.md) | Twilio Elastic SIP Trunk integration |
+| [`06-security-and-tls.md`](configurations/06-security-and-tls.md) | TLS certificates, trustpoints, and secure SIP configuration |

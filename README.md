@@ -57,7 +57,7 @@ The following diagram illustrates the complete call flow between Cisco Webex Cal
 > *(Architecture diagram will be displayed below once uploaded to the diagrams folder.)*
 
 <p align="center">
-<img src="diagrams/architecture.png" width="1000">
+<img src="diagrams/00-architecture-diagram.png" width="1000">
 </p>
 
 
@@ -118,13 +118,16 @@ cisco-webex-calling-cube-lab/
 │   ├── 06-internal-call-success.png
 │   └── 07-pstn-call-success.png
 │
-├── configurations/
-│   ├── 01-voice-service-voip.md
-│   ├── 02-sip-ua.md
-│   ├── 03-dial-peers.md
-│   ├── 04-webex-registration.md
-│   ├── 05-twilio-sip-trunk.md
-│   └── 06-security-and-tls.md
+configurations/
+│
+├── 01-voice-service-voip.md
+├── 02-sip-ua.md
+├── 03-dial-peers.md
+├── 04-webex-registration.md
+├── 05-twilio-sip-trunk.md
+├── 06-security-and-tls.md
+├── 07-tenant-configuration.md
+└── 08-global-configuration.md
 │
 └── docs/
     ├── 01-deployment-guide.md
@@ -256,3 +259,70 @@ show call active voice brief
 ## PSTN Call Success
 
 ![PSTN Call](screenshots/07-pstn-call-success.png)
+
+
+---
+
+# Project Outcomes
+
+This project successfully demonstrated the end-to-end deployment of Cisco Webex Calling using Cisco Catalyst 8000V (CUBE) as a Registration-Based Local Gateway (RBLG) integrated with Twilio Elastic SIP Trunk.
+
+## Successfully Implemented
+
+- ✅ Cisco Webex Calling deployment
+- ✅ Registration-Based Local Gateway (RBLG)
+- ✅ Cisco Catalyst 8000V (CUBE)
+- ✅ SIP over TLS
+- ✅ Secure RTP (SRTP)
+- ✅ Cisco Control Hub configuration
+- ✅ Twilio Elastic SIP Trunk integration
+- ✅ Internal extension calling
+- ✅ PSTN outbound calling
+- ✅ End-to-end call verification
+- ✅ Troubleshooting and validation
+
+---
+
+## Skills Demonstrated
+
+- Cisco Collaboration
+- Cisco CUBE Administration
+- Webex Calling Administration
+- SIP Protocol
+- SIP over TLS
+- Dial Peer Configuration
+- SIP UA Configuration
+- Voice Service VoIP
+- Twilio SIP Trunk
+- Troubleshooting
+- Microsoft Azure
+- Technical Documentation
+
+---
+
+# Future Enhancements
+
+Future improvements for this project include:
+
+- Inbound PSTN calling
+- High Availability (HA) deployment
+- Multiple SIP Trunks
+- Cisco Unified CM integration
+- SIPREC call recording
+- Redundant CUBE deployment
+- Automated configuration backups
+- Monitoring using ThousandEyes
+- Integration with Microsoft Teams Direct Routing
+
+---
+
+## Author
+
+**Manav Dutta**
+
+Network Engineer | Cisco Collaboration | Microsoft Azure | Cisco Webex Calling
+
+If you found this repository useful, feel free to ⭐ the project.
+
+
+

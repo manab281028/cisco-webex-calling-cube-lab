@@ -8,4 +8,5 @@ Examples:
 - SIP Registration
 - Call Verification
 - Twilio Logs
-<img width="1895" height="851" alt="image" src="https://github.com/user-attachments/assets/196152de-7906-4e22-a0a2-64acbe2251da" />
+
+<img width="1536" height="1024" alt="00-webex-calling-call-flow" src="https://github.com/user-attachments/assets/328ca8e0-037f-40d6-922d-c9ae556b27f2" />

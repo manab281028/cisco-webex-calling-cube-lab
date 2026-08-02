@@ -64,3 +64,24 @@ dial-peer voice 200 voip
 - Codec preferences should match the service provider requirements.
 - Destination patterns vary based on the deployment.
 - Actual SIP domains and phone numbers have been omitted for security.
+
+  ## Verification
+
+### Command
+
+```cisco
+show dial-peer voice summary
+```
+
+### Example Output
+
+```text
+CUBE# show dial-peer voice summary
+
+1000 voip up up
+2000 voip up up
+```
+
+### Screenshot
+
+![Dial Peers](../screenshots/02-cube-sip-registration.png)

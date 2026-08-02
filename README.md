@@ -173,3 +173,54 @@ cisco-webex-calling-cube-lab/
 | [`02-call-flow.md`](docs/02-call-flow.md) | End-to-end SIP call flow between Webex Calling, CUBE, Twilio, and PSTN |
 | [`03-troubleshooting.md`](docs/03-troubleshooting.md) | Common issues encountered and the troubleshooting steps used to resolve them |
 | [`04-lessons-learned.md`](docs/04-lessons-learned.md) | Key learnings, best practices, and observations from the lab |
+
+
+---
+
+# Screenshots
+
+## Lab Architecture
+
+![Architecture](screenshots/00-architecture-diagram.png)
+
+---
+
+## Cisco Control Hub - Trunk Status
+
+![Control Hub](screenshots/01-control-hub-trunk-online.png)
+
+---
+
+## Cisco CUBE Registration
+
+![CUBE Registration](screenshots/02-cube-sip-registration.png)
+
+---
+
+## Users and Extensions
+
+![Users](screenshots/03-users-and-extensions.png)
+
+---
+
+## Webex Calling License
+
+![License](screenshots/04-webex-calling-license.png)
+
+---
+
+## Webex Softphone Connected
+
+![Softphone](screenshots/05-webex-softphone-connected.png)
+
+---
+
+## Internal Extension Call
+
+![Internal Call](screenshots/06-internal-call-success.png)
+
+---
+
+## PSTN Call Success
+
+![PSTN Call](screenshots/07-pstn-call-success.png)

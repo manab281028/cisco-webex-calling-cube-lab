@@ -132,3 +132,20 @@ cisco-webex-calling-cube-lab/
     ├── 03-troubleshooting.md
     └── 04-lessons-learned.md
 ```
+## Skills Demonstrated
+
+- Cisco Webex Calling Administration
+- Cisco Catalyst 8000V (CUBE) Configuration
+- Registration-Based Local Gateway (RBLG)
+- SIP over TLS Configuration
+- Twilio Elastic SIP Trunk Integration
+- Voice Service VoIP Configuration
+- SIP UA Configuration
+- Dial Peer Configuration
+- Cisco Control Hub Administration
+- Internal Extension Calling
+- PSTN Call Routing
+- TLS and SRTP Security
+- SIP Registration Verification
+- CLI Troubleshooting
+- End-to-End Voice Validation

@@ -8,37 +8,28 @@ Register Cisco Catalyst 8000V (CUBE) as a Registration-Based Local Gateway (RBLG
 
 ## Overview
 
-In this lab, the Cisco CUBE was configured to register with Cisco Webex Calling using a Registration-Based SIP Trunk.
-
-Once registration completed successfully:
-
-- The SIP trunk status changed to **Online** in Cisco Control Hub.
-- CUBE became available as the Local Gateway.
-- Calls from Webex users could be routed through CUBE.
-- PSTN calls could be forwarded to Twilio.
+Cisco CUBE was configured to register securely with Cisco Webex Calling using a Registration-Based SIP Trunk. Once registration completed successfully, the Local Gateway became available to route calls between Webex Calling and the PSTN.
 
 ---
 
-## Registration Process
+## Registration Workflow
 
 1. Create a Registration-Based Trunk in Cisco Control Hub.
-2. Download the generated registration details.
-3. Configure the SIP UA on Cisco CUBE.
-4. Import the required certificates.
+2. Download the registration details.
+3. Configure SIP UA on Cisco CUBE.
+4. Configure TLS certificates.
 5. Configure SIP registration credentials.
 6. Verify successful registration.
 
 ---
 
-## Verification
-
-The following CLI command was used to verify registration:
+## Verification Commands
 
 ```cisco
 show sip-ua register status
 ```
 
-Expected Result
+Expected Output
 
 ```
 Status : Registered
@@ -54,7 +45,7 @@ Calling
 → PSTN & Routing
 → Trunks
 
-Expected Status:
+Expected Status
 
 ```
 Online
@@ -62,8 +53,15 @@ Online
 
 ---
 
-## Notes
+## Result
 
-- TLS was used for SIP signaling.
-- Registration was verified using both the Cisco CLI and Control Hub.
-- Authentication details and certificates have been omitted for security.
+- Cisco CUBE successfully registered with Webex Calling.
+- SIP trunk status changed to **Online**.
+- Internal and PSTN calls were successfully established.
+
+---
+
+## Related Screenshots
+
+- `01-control-hub-trunk-online.png`
+- `02-cube-sip-registration.png`

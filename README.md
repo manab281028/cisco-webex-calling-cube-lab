@@ -162,3 +162,14 @@ cisco-webex-calling-cube-lab/
 | [`04-webex-registration.md`](configurations/04-webex-registration.md) | Registration-Based Local Gateway (RBLG) configuration |
 | [`05-twilio-sip-trunk.md`](configurations/05-twilio-sip-trunk.md) | Twilio Elastic SIP Trunk integration |
 | [`06-security-and-tls.md`](configurations/06-security-and-tls.md) | TLS certificates, trustpoints, and secure SIP configuration |
+
+---
+
+## Documentation
+
+| Document | Description |
+|----------|-------------|
+| [`01-deployment-guide.md`](docs/01-deployment-guide.md) | Complete deployment procedure from Azure VM creation to successful call validation |
+| [`02-call-flow.md`](docs/02-call-flow.md) | End-to-end SIP call flow between Webex Calling, CUBE, Twilio, and PSTN |
+| [`03-troubleshooting.md`](docs/03-troubleshooting.md) | Common issues encountered and the troubleshooting steps used to resolve them |
+| [`04-lessons-learned.md`](docs/04-lessons-learned.md) | Key learnings, best practices, and observations from the lab |

@@ -65,3 +65,13 @@ Online
 
 - `01-control-hub-trunk-online.png`
 - `02-cube-sip-registration.png`
+
+## Screenshots
+
+### Control Hub Trunk
+
+![Control Hub Trunk](../screenshots/01-control-hub-trunk-online.png)
+
+### CUBE SIP Registration
+
+![CUBE SIP Registration](../screenshots/02-cube-sip-registration.png)

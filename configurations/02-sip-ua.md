@@ -40,6 +40,28 @@ sip-ua
 ---
 
 ## Notes
+## Verification
+
+### Command
+
+```cisco
+show sip-ua register status
+```
+
+### Example Output
+
+```text
+CUBE# show sip-ua register status
+
+Registrar: sip-us10.wxc-di.webex.com
+State: REGISTERED
+Transport: TLS
+Expires: 3600
+```
+
+### Screenshot
+
+![SIP Registration](../screenshots/02-cube-sip-registration.png)
 
 - SIP signaling uses TLS 1.2.
 - Registration is performed against Cisco Webex Calling.

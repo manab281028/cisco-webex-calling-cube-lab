@@ -1,4 +1,3 @@
-<img width="1536" height="1024" alt="00-webex-calling-call-flow" src="https://github.com/user-attachments/assets/90442789-7112-4cc1-803d-9ccf99287aac" />
 # Cisco Webex Calling + CUBE Registration-Based Local Gateway Lab
 ![Cisco](https://img.shields.io/badge/Cisco-CUBE-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
 ![Webex](https://img.shields.io/badge/Webex-Calling-00BCEB?style=for-the-badge)

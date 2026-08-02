@@ -74,3 +74,30 @@ Verified the caller ID within the Twilio Console and successfully completed outb
 - PSTN calling was successfully established.
 - Twilio call logs confirmed successful call completion.
 - Media and signaling were verified.
+
+## Example Configuration
+
+```cisco
+dial-peer voice 200 voip
+ description Outbound to Twilio
+ session protocol sipv2
+ session target dns:<Twilio SIP Domain>
+ voice-class codec 1
+ dtmf-relay rtp-nte
+ no vad
+```
+
+## Screenshots
+
+### Twilio Elastic SIP Trunk
+
+![Twilio SIP Trunk](../screenshots/07-pstn-call-success.png)
+
+
+
+## Notes
+
+- SIP signaling is secured using TLS.
+- PSTN calls are routed through Twilio Elastic SIP Trunk.
+- Verify Twilio logs if outbound calls fail.
+- Ensure dial peers and codecs match provider requirements.

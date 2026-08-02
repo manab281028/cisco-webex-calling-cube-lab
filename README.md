@@ -221,6 +221,38 @@ cisco-webex-calling-cube-lab/
 
 ---
 
+
+---
+
+# Verification
+
+The following validation steps were completed successfully during the implementation.
+
+| Test | Status |
+|------|:------:|
+| Cisco CUBE Registration | ✅ |
+| Webex Calling Registration | ✅ |
+| Cisco Control Hub Trunk Online | ✅ |
+| SIP over TLS | ✅ |
+| Internal Extension Calling | ✅ |
+| PSTN Outbound Calling | ✅ |
+| Twilio SIP Trunk Connectivity | ✅ |
+| Webex Softphone Registration | ✅ |
+
+## Verification Commands
+
+```cisco
+show sip-ua register status
+
+show dial-peer voice summary
+
+show voice class tenant
+
+show running-config | section voice service voip
+
+show call active voice brief
+```
+
 ## PSTN Call Success
 
 ![PSTN Call](screenshots/07-pstn-call-success.png)
